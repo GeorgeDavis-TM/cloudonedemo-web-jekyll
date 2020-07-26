@@ -1,0 +1,13 @@
+<div class="marginBottom">    
+
+    {% for fp in site.data.frontpageContent %}
+
+    <div class="frontpageBannerText marginBottom">{{ fp.frontpage-banner-text }}</div>
+    
+    <div class="frontpageBannerDescription marginBottom">{{ fp.frontpage-banner-description }}</div>
+    
+    <button type="button" class="siteGradient callToActionButton marginBottom">{{ fp.frontpage-call-to-action-button-text }}</button>
+    
+    {% endfor %}
+    
+</div>

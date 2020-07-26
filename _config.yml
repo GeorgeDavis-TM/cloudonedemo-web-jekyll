@@ -1,0 +1,9 @@
+domainUrl: "http://100.27.34.221"
+baseUrl: ""
+siteTitle: "Eyedtentee"
+siteLogo: "/img/eyedtentee_logo.jpg"
+exclude: ['README.md']
+premalink: pretty
+
+# Website Hosting Configuration
+# port: 80

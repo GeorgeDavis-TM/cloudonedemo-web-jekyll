@@ -1,0 +1,28 @@
+[
+    {
+        "nav": [
+            {
+                "headerTitle": "platform",
+                "headerLink": "#"
+            },
+            {
+                "headerTitle": "resources",
+                "headerLink": "#"
+            },
+            {
+                "headerTitle": "company",
+                "headerLink": "#"
+            }
+        ],
+        "site-header-buttons": [
+            {
+                "buttonText": "SCHEDULE DEMO",
+                "buttonLink": "#"
+            },
+            {
+                "buttonText": "PLAY FROLF WITH US",
+                "buttonLink": "#"
+            }
+        ],
+    }
+]

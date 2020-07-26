@@ -1,0 +1,25 @@
+<header class="container">
+    <nav>
+        <ul class="nav">
+            <li class="{% if page.url == '/' %}active{% endif %}"><a href="{{site.domainUrl}}{{site.baseUrl}}/">
+                    <img src="{{site.domainUrl}}{{site.baseUrl}}{{site.siteLogo}}" alt="{{site.siteTitle}} Logo"
+                        class="siteLogo" />
+                </a></li>
+            {% for siteHeader in site.data.siteHeaders %}
+
+            {% for navItem in siteHeader.nav %}
+            
+            <li class=""><a href="{{site.baseUrl}}/{{navItem.headerLink}}/" class="link">{{navItem.headerTitle | upcase}} <img src="{{site.domainUrl}}{{site.baseUrl}}/img/down_arrow.svg" class="siteHeader"/></a> </li>
+
+            {% endfor %}
+
+            {% for buttonItem in siteHeader.site-header-buttons %}
+            
+            <button type="button" class="linkButton siteGradient"><a href="{{site.baseUrl}}/{{buttonItem.buttonLink}}/">{{buttonItem.buttonText | upcase}}</a> </button>
+
+            {% endfor %}
+
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
